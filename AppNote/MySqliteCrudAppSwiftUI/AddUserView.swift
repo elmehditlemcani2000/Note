@@ -93,7 +93,7 @@ struct AddUserView: View {
                 // go back to home page
                 self.mode.wrappedValue.dismiss()
             }, label: {
-                Text("Add User")
+                Text("Add Note")
             })
             .frame(maxWidth: .infinity, alignment: .trailing)
             .padding(.top, 10)
